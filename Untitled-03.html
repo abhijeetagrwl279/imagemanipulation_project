@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Untitled-04.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="Untitled-05.js"></script>
+    <h1>Change Background </h1>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <span>
+        <canvas id="can"></canvas>
+    </span>
+    <span>
+        <canvas id="can2"></canvas>
+    </span>
+    <p>
+        <canvas id="can3">
+        </canvas>
+
+    <p>Foreground Image: <input type="file" multiple="false" id="finput" accept="image/*" onchange="upload()"></p>
+    <p>Background Image: <input type="file" multiple="false" id="finput2" accept="image/*" onchange="upload2()"></p>
+
+    <p>
+        <input type="button" value="merge images" onclick="gsa()">
+    </p>
+    </p>
+    <hr>
+    <h1>Apply Filters </h1>
+    <p>
+        <canvas id="can4">
+        </canvas>
+        <Canvas id="can5">
+        </Canvas>
+    <p>
+        Original Image :
+        <input type="file" multiple="false" id="finput3" accept="image/*" onchange="upload3()">
+    </p>
+    <p>
+        <span><input type="button" value="Gray filter" onclick="grayscale()"></span>
+        <span><input type="button" value="Red filter" onclick="redscale()"></span>
+        <span><input type="button" value="Green filter" onclick="greenscale()"></span>
+        <span><input type="button" value="Blue filter" onclick="bluescale()"></span>
+        <span><input type="button" value="Pink filter" onclick="pinkscale()"></span>
+        <span><input type="button" value="Yellow filter" onclick="yellowscale()"></span>
+        <span><input type="button" value="Cyan filter" onclick="cyanscale()"></span>
+        <span><input type="button" value="Orange filter" onclick="orangescale()"></span>
+        <span><input type="button" value="Indigo filter" onclick="indigoscale()"></span>
+        <span><input type="button" value="Violet filter" onclick="violetscale()"></span>
+
+    </p>
+    </p>
+</body>
+
+</html>
